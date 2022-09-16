@@ -1,0 +1,8 @@
+.caixa__esquerda {
+  margin: 0 2% 0 2%;
+}
+
+@media only screen and (max-width: 600px) {
+  .caixa__esquerda {
+float: left;  }
+}

@@ -1,0 +1,34 @@
+.sobre__titulo {
+  font-size: 38px;
+  text-align: center;
+  padding-bottom: 5%;
+  color: #ffdf00;
+  font-weight: bold;
+}
+
+.sobre__texto {
+  margin-left: 10%;
+  color: white;
+  padding-right: 10%;
+
+  
+}
+
+.sobre__descricao {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .sobre__titulo {
+    /* padding-top: 7%; */
+    padding: 7% 50% 0 20;
+    font-size: 30px;
+  }
+
+  .sobre__descricao {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+}

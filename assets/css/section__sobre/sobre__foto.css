@@ -1,0 +1,30 @@
+
+
+@media only screen and (max-width: 600px) {
+  .sobre__foto {
+    max-width: 260px ;
+    margin: 20px 0;
+    border-radius: 5px;
+
+  }
+}
+
+@media only screen and (min-width:600px)and (max-width: 1321px) {
+  .sobre__foto {
+    /* min-width: 230px; */
+    max-height: 320px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 14px -3px #000000;
+    box-shadow: 0px 0px 10px -3px #000000;
+    margin: 5% 0 ;
+  }
+}
+
+@media only screen and (min-width: 1321px) {
+  .sobre__foto {
+    width: 25%;
+    margin-right: 10%;
+    border-radius: 5px;
+
+  }
+}

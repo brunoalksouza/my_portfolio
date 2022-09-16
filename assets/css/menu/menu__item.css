@@ -1,0 +1,10 @@
+.menu__item a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu__item:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.3s all;
+}

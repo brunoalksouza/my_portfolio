@@ -1,0 +1,15 @@
+.inf__subtitulo{
+    font-size: 28px;
+    padding-top: 5px;
+    color: #ffdf00;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .inf__subtitulo {
+      font-size: 22px;
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+  }

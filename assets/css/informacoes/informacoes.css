@@ -1,0 +1,22 @@
+.informacoes {
+  display: flex;
+  background-color: #272732;
+  color: white;
+  justify-content: center;
+  margin: 0 15% 5% 18%;
+  padding: 0 5%;
+  line-height: 33px;
+}
+
+@media only screen and (max-width: 600px) {
+  .informacoes {
+    flex-wrap: wrap;
+    margin: 0 1% 1% 0%;
+    /* padding: 0 1%; */
+    line-height: 25px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+}

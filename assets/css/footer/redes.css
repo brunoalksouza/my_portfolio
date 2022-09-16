@@ -1,0 +1,13 @@
+.redes a {
+  text-decoration: none;
+  color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .redes a {
+  }
+}
+
+@media only screen and (max-width: 1321px) {
+}
