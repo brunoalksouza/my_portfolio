@@ -13,6 +13,8 @@
 @media only screen and (max-width: 600px) {
   .sobre {
     padding-bottom: 22%;
+    padding-bottom: 13%;
+    padding-right: 0%;
   }
 }
 
@@ -22,6 +24,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    padding-bottom: 5%;
+    padding-right: 0%;
   }
 }
