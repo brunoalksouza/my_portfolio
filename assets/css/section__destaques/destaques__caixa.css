@@ -3,6 +3,7 @@
   display: flex;
   background-color: #202020;
   justify-content: space-between;
+  margin-top: 20px;
   margin-left: 12%;
   margin-right: 12%;
   padding-left: 12%;
@@ -24,5 +25,41 @@
   }
 }
 
+.destaques {
+  position: absolute;
+  width: 100%;
+  margin: -63.64px 0 0 0;
+}
+
+.icons {
+  width: 5em;
+  margin: 20% 50;
+}
+
+.icons:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.3s all;
+}
+
+@media only screen and (max-width: 600px) {
+  .destaques {
+    position: absolute;
+    margin: -32.27px 0 0 0;
+  }
+  .icons {
+    width: 20%;
+    margin: 0 0;
+  }
+}
+
 @media only screen and (max-width: 992px) {
+  .icons {
+    width: 15%;
+    margin: 0 0;
+  }
+  .destaques {
+    position: absolute;
+    margin: -32.27px 0 0 0;
+  }
 }
