@@ -3,3 +3,17 @@
   padding-top: 1%;
   width: 55%;
 }
+
+.caixa__esquerda {
+  margin: 0 2% 0 2%;
+}
+
+@media only screen and (max-width: 600px) {
+  .caixa__esquerda {
+float: left;  }
+}
+
+.caixa__direita {
+  width: 600px;
+  margin: 0 5% 0 2%;
+}

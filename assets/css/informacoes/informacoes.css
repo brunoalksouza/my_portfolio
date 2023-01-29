@@ -20,3 +20,57 @@
 
 @media only screen and (max-width: 992px) {
 }
+
+/* titulo */
+
+.inf__titulo {
+  font-size: 38px;
+  /* text-align: center; */
+  padding-bottom: 20px;
+  color: #ffdf00;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .inf__titulo {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+/* texto */
+
+.inf__texto {
+  margin: 9px 0 30px 0;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .inf__texto {
+    margin: 4px 0 30px 0;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+/* subtitulo */
+
+.inf__subtitulo {
+  font-size: 28px;
+  padding-top: 5px;
+  color: #ffdf00;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .inf__subtitulo {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+}
